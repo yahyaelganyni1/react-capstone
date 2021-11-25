@@ -1,4 +1,5 @@
 import React from 'react';
+import { Provider } from 'react-redux';
 import ReactDOM from 'react-dom';
 import './index.css';
 import {
@@ -6,13 +7,14 @@ import {
 } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import store from './redux/configureStore';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <Router>
       <App />
     </Router>
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root'),
 );
 
