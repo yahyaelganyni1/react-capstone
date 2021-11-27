@@ -27,7 +27,6 @@ export const getCompany = () => async (dispatch) => {
     .then((res) => {
       const company = res.data;
       dispatch(fetchUrl(company));
-      console.log(company);
     })
     .catch((err) => console.log(err));
 };
