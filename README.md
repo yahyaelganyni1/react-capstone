@@ -21,7 +21,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Comming Soon]()
+[nasdaq100](https://reverent-joliot-437bf1.netlify.app/)
 
 ## Getting Started
 
