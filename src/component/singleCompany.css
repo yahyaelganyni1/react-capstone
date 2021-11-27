@@ -10,6 +10,8 @@
   font-size: 1em;
 }
 
+/* one color and aother */
+
 .single-company li:nth-child(4n + 1),
 .single-company li:nth-child(4n + 3) {
   background-color: #b83969;
