@@ -28,7 +28,7 @@ export const getCompany = () => async (dispatch) => {
       const company = res.data;
       dispatch(fetchUrl(company));
     })
-    .catch((err) => console.log(err));
+    .catch((err) => err);
 };
 
 export default companyReducer;
