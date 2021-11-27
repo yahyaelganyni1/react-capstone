@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Space Travelers
+# nasdaq 100
 
-> Space Travelers is project built using React and redux. It's an app that lets you reserve rockets going to space.
+> nasdaq 100 is project built using React and redux. It's an app that lets you reserve rockets going to space.
 
 Additional description about the project and its features.
 
@@ -28,7 +28,7 @@ Additional description about the project and its features.
 To get a local copy up and running follow these simple example steps.
 
 ```
-git clone git@github.com:Tchilo/spaceShips
+git clone git@github.com:yahyaelganayni1/spaceShips
 
 cd spaceShips
 
