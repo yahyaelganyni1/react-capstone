@@ -1,0 +1,28 @@
+.nasdaq-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 0.1em;
+  position: relative;
+}
+
+.nasdaq-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  height: 25vh;
+  color: #fff;
+  position: relative;
+}
+
+.nasdaq-links a:nth-child(4n + 2),
+.nasdaq-links a:nth-child(4n + 3) {
+  background-color: #b83969;
+}
+
+.nasdaq-links a img {
+  position: absolute;
+  top: 0.9em;
+  right: 0.5em;
+}

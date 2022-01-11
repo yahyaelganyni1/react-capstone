@@ -1,0 +1,26 @@
+.single-company {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-company li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  font-size: 1em;
+}
+
+/* one color and aother */
+
+.single-company li:nth-child(4n + 1),
+.single-company li:nth-child(4n + 3) {
+  background-color: #b83969;
+}
+
+.describer {
+  color: #ffcbcb;
+}
+
+.description {
+  color: #fff;
+}

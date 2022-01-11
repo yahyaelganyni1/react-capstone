@@ -1,0 +1,33 @@
+.header {
+  height: 40vh;
+}
+
+.header nav {
+  background-color: #cc0652;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.mic-settings img {
+  width: 18%;
+}
+
+.header ul li img {
+  padding: 1em;
+}
+
+.mic-settings {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.nasdaq-logo {
+  width: 100%;
+}
